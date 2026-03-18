@@ -29,19 +29,7 @@ Version Control: Git & GitHub
 
 
 
-📂 Folder Structure
-DSA_IN_JAVA/
-│── Day01/
-│   ├── MaxElement.java
-│   ├── MinElement.java
-│   └── LinearSearch.java
-│
-│── Day02/
-│   ├── SecondLargest.java
-│   └── SumOfArray.java
-│
-│── Notes/
-│   └── Array_Concepts.md
+
 
 🔥 Rules I Follow
 
