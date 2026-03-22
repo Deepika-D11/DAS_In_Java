@@ -1,1 +1,16 @@
+LeetCode Problem link - https://leetcode.com/problems/concatenation-of-array/
 
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int n=nums.length;
+       int[]newNums=new int[2*n];
+       int k=0;
+       for(int i=0;i<(2*n);i++){
+        newNums[i]=nums[k];
+        k++;
+        if(k> n-1) k=0;
+       }
+
+       return newNums;
+    }
+}
