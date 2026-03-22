@@ -1,1 +1,15 @@
 
+class Solution {
+    public int[] runningSum(int[] nums) {
+       int n=nums.length;
+       if(n<=1) return nums;
+       int[]ansArray=new int[n];
+       ansArray[0]=nums[0];
+       for(int i=1;i<n;i++){
+        ansArray[i]=nums[i] + ansArray[i - 1];
+       }
+
+       return ansArray;
+
+    }
+}
