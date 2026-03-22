@@ -1,1 +1,20 @@
+LeetCode Problem link - https://leetcode.com/problems/shuffle-the-array/description/
 
+
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+
+     int[]ansArray=new int[2*n];
+      int k=0;
+      int i=0;
+      int j=n;
+      while(j< 2*n){
+        ansArray[k++]=nums[i++];
+    
+        ansArray[k++]=nums[j++];
+      }
+
+      return ansArray;
+
+    }
+}
